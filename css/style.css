@@ -4,4 +4,91 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+  background-color: #e5e5e5;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.top-Players {
+  background-color: #fff;
+  width: 1240px;
+  border-radius: 10px;
+}
+
+.top-Players > h1.section-heading {
+  padding-left: 30px;
+}
+
+.players {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 30px;
+  padding: 30px;
+}
+.player {
+  display: flex;
+  align-items: center;
+  gap: 26px;
+}
+.player img {
+  width: 56px;
+  height: 56px;
+}
+.player-name {
+  font-size: 18px;
+  font-weight: 700;
+}
+hr {
+  border: 1px solid #d1d1d1;
+  margin-left: 30px;
+  margin-right: 250px;
+  margin-bottom: 50px;
+}
+.blog {
+  display: flex;
+  gap: 26px;
+}
+.blogs {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-row-gap: 30px;
+  padding: 30px;
+}
+.blog-img img {
+  width: 177px;
+  height: 117px;
+}
+.blog-author {
+  color: #9f9f9f;
+  font-size: 16px;
+}
+.blog-author a {
+  text-decoration: none;
+  color: #562eff;
+  font-size: 16px;
+}
+.blog-info h3 {
+  font-size: 20px;
+}
+.course-status {
+  display: flex;
+  justify-content: space-between;
+}
+.course .course-img img {
+  width: 224px;
+  height: 104px;
+}
+.courses {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 40px;
+  padding: 30px;
+}
+.lates-course {
+  background-color: #fff;
+  width: 1240px;
+  border-radius: 10px;
+  margin-top: 20px;
 }
